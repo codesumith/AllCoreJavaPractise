@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.sumith.Test_sep23.exception_handling.java&apos; to &apos;exception_handling20.java&apos;&#x0A;- Original project: &apos;Exception&apos;&#x0A;- Original element: &apos;com.sumith.Test_sep23.exception_handling.java&apos;&#x0A;- Renamed element: &apos;com.sumith.Test_sep23.exception_handling20.java&apos;" description="Rename compilation unit &apos;exception_handling.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.sumith.Test_sep23{exception_handling.java" name="exception_handling20.java" references="false" stamp="1695527577584" version="1.0"/>
+</session>

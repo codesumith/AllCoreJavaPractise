@@ -1,0 +1,5 @@
+package com.sumith.order;
+
+public class SpringBeanConfiguration {
+
+}

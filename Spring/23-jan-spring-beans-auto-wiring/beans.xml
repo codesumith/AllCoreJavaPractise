@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+        <beans>
+        
+              <bean id="product" class="com.flipkart.orders.Product">
+        
+              </bean>
+              
+              <bean id="p1" class="com.flipkart.orders.Product">
+        
+              </bean> 
+              
+              <bean id="transaction" class="com.flipkart.orders.Transaction">
+              
+              </bean>
+              
+              <bean id="order1" class="com.flipkart.orders.Order" autowire="byName">
+              
+              </bean>
+        
+        </beans>

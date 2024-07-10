@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.sumith.Test_sep23.SalaryCalculationException.java&apos; to &apos;SalaryCalculationException7.java&apos;&#x0A;- Original project: &apos;Exception&apos;&#x0A;- Original element: &apos;com.sumith.Test_sep23.SalaryCalculationException.java&apos;&#x0A;- Renamed element: &apos;com.sumith.Test_sep23.SalaryCalculationException7.java&apos;" description="Rename compilation unit &apos;SalaryCalculationException.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.sumith.Test_sep23{SalaryCalculationException.java" name="SalaryCalculationException7.java" references="false" stamp="1695465780337" version="1.0"/>
+</session>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        
+        <beans>
+        
+              <bean id="product1" class="com.flipkart.Product">
+              
+               <property name="id" value="10"></property>
+               <property name="productName" value="Laptop"></property>
+               <property name="price" value="75000"></property>
+              
+              </bean>
+              
+              <bean id="product2" class="com.flipkart.Product">
+              
+             
+              <property name="productName" value="Mouse"></property>
+              <property name="price" value="30000.00"></property>
+     
+              </bean>
+            
+     
+              <bean id="order1" class="com.flipkart.Order">
+              
+              <property name="emailId" value="nope@gmail.com"></property>
+              <property name="totalAmount" value="1000.00"></property>
+              <property name="isOrderSuccess" value="true"></property>
+              <property name="foodType" value="N"></property>
+              <property name="mobileNumber" value="9557988602"></property>
+              
+             <property name="foodItemNames">
+             <list>
+             
+             <value>Panner-Birayni</value>
+             <value>Deserts</value>
+             <value>CoolDrinks</value>
+             <value>KajuKatli</value>
+             
+             </list>    
+             </property>
+              
+              </bean>
+              
+              
+              <bean id="p1" class="com.flipkart.Practise">
+              <property name="items">
+              <set>
+              
+              <value>PannerBiryani</value>
+              <value>HotChoclate</value>
+              <value>PannerBiryani</value>
+              <value>MasalaDosa</value>
+              <value>RedvelvetCake</value>
+              <value>MasalaDosa</value>
+                            
+              
+              </set>
+              </property>
+               </bean>
+             
+     
+     
+        </beans>

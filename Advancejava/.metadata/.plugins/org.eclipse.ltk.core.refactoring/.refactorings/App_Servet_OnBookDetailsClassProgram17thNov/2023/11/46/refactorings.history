@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.sumith.BookDetails&apos; to &apos;com.sumith.bookdetails&apos;&#x0A;- Original project: &apos;App_Servet_OnBookDetailsClassProgram17thNov&apos;&#x0A;- Original element: &apos;App_Servet_OnBookDetailsClassProgram17thNov/src/main/java/com.sumith.BookDetails&apos;&#x0A;- Renamed element: &apos;App_Servet_OnBookDetailsClassProgram17thNov/src/main/java/com.sumith.bookdetails&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.sumith.BookDetails&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.sumith.BookDetails" name="com.sumith.bookdetails" qualified="false" references="true" stamp="1700240755905" textual="false" version="1.0"/>
+</session>

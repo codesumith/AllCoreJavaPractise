@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 75vh;
+    background-color: aqua;
+    
+}
+
+input{
+    font-size: medium;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+h2{
+    color: blue;
+}
+
+button{
+    background-color: green;
+}

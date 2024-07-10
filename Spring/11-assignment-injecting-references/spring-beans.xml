@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        
+        <beans>
+        
+       <!-- private String name;private int yearOfExpiry;private float price;-->
+        
+        <bean id="product1" class="com.beans.setter.refrence_injection.Product">
+        <property name="name" value="Airpods"></property>
+           <property name="price" value="25000"></property>
+             <property name="yearOfExpiry" value="2025"></property>
+       
+        </bean>
+        
+       <!--  private int orderId;private double orderAmount;private Product product; -->
+        
+        <bean id="order1" class="com.beans.setter.refrence_injection.Order">
+        <property name="orderId" value="7878"></property>
+        <property name="orderAmount" value="25000"></property>
+        <property name="product" ref="product1"></property>
+        
+        </bean>
+       
+        </beans>

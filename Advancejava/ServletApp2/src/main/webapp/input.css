@@ -1,0 +1,70 @@
+@charset "UTF-8";
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+  background-image: url('817555.jpg');
+    background-size: auto;
+}
+
+form
+{
+    text-align: center;
+}
+
+.form-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input,button
+{
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+button
+{
+    background-color:#0074D9; ;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+
+}
+button::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), transparent);
+    transform: rotate(-45deg);
+    transform-origin: top left;
+    transition: transform 0.3s, opacity 0.3s;
+    opacity: 0;
+}
+
+button:hover::before {
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+button:hover
+{
+background-color: #0056b3;
+transform: scale(1.1);
+}

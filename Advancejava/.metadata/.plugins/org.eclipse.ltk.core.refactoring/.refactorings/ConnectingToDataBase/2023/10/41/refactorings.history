@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.sumith.hierarchyOfConnection&apos; to &apos;com.sumith.hierarchyOfConnection_oct3&apos;&#x0A;- Original project: &apos;ConnectingToDataBase&apos;&#x0A;- Original element: &apos;ConnectingToDataBase/src/com.sumith.hierarchyOfConnection&apos;&#x0A;- Renamed element: &apos;ConnectingToDataBase/src/com.sumith.hierarchyOfConnection_oct3&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.sumith.hierarchyOfConnection&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.sumith.hierarchyOfConnection" name="com.sumith.hierarchyOfConnection_oct3" qualified="false" references="true" stamp="1696793680114" textual="false" version="1.0"/>
+</session>

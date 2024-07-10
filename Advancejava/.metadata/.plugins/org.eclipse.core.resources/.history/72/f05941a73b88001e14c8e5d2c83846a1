@@ -1,0 +1,32 @@
+package com.sumith.image;
+import java.io.IOException;
+import java.sql.Blob;
+import java.sql.SQLException;
+
+import javax.servlet.ServletException;
+import javax.servlet.ServletOutputStream;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@SuppressWarnings("serial")
+@WebServlet("/image")
+public class Imageservlet extends HttpServlet{
+@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException ,IOException
+	{
+	Blob s =new ImageDAO().retrive(req);
+	res.setContentType("image/jpg");
+	
+	ServletOutputStream sos= res.getOutputStream();
+	try {
+		sos.write(s.getBinaryStream().readAllBytes());
+	} catch (IOException | SQLException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+
+	}
+	
+}

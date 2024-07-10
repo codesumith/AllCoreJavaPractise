@@ -1,0 +1,34 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    background-color: #000;
+}
+
+h1{
+	font-family: montserrat;
+    position: absolute;
+   top: 25%;
+   left: 21%;;
+   font-size: 44px;
+}
+.font-2{
+	font-family: 'josefin sans';
+	font-weight: 700;
+}
+.title{ letter-spacing: .3em; text-transform: uppercase; }
+.text-light{ color: #fff }
+.font-alt{
+	font-family: 'georgia';
+	font-style: italic;
+	color: #666;
+}
+
+h2{
+    position: absolute;
+    top: 40%;
+    left: 49%;;
+    font-size: 64px;
+}

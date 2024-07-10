@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        
+        <beans>
+	            <!--private String city; private String state; private Integer pincode; -->
+             
+             <bean id="address1" class="com.naresh.employee.details.Address">
+             <property name="city" value="Nellore"></property>
+             <property name="state" value="AndhraPradesh"></property>
+             <property name="pincode" value="589432"></property>
+             
+             </bean>
+        
+                <!--private String organizationName;private Address address;-->
+        
+             <bean id="org1" class="com.naresh.employee.details.Organization">
+             <property name="organizationName" value="NareshIt"></property>
+             <property name="address" ref="address1"></property>
+             
+             </bean>
+
+	            <!--private String name; private Integer id; private Double salary; private Address address; private Organization org; -->
+             
+             <bean id="employee1" class="com.naresh.employee.details.Employee">
+             <property name="name" value="Arvind"></property>
+             <property name="id" value="567"></property>
+             <property name="salary" value="60000"></property>
+             <property name="address" ref="address1"></property>
+             <property name="org" ref="org1"></property>
+             
+             </bean>
+             
+             
+              <bean id="address2" class="com.naresh.employee.details.Address">
+              <constructor-arg value="Hyderabad"></constructor-arg>
+              <constructor-arg value="Telangana"></constructor-arg>
+              <constructor-arg value="500063"></constructor-arg>
+              
+              </bean>
+              
+              <bean id="org2" class="com.naresh.employee.details.Organization">
+              <constructor-arg value="IQube"></constructor-arg>
+              <constructor-arg ref="address2"></constructor-arg>
+              
+              </bean>
+              
+              <bean id="employee2" class="com.naresh.employee.details.Employee">
+              <constructor-arg value="Banu"></constructor-arg>
+              <constructor-arg value="098"></constructor-arg>
+              <constructor-arg value="55000"></constructor-arg>
+              <constructor-arg ref="address2"></constructor-arg>
+              <constructor-arg ref="org2"></constructor-arg>
+              
+              </bean>
+        
+        </beans>

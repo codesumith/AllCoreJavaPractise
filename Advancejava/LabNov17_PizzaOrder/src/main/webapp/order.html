@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="order" method="post">
+<h2 style="color: purple;">Order your pizza here</h2>
+Name:<input type="text" name="name" placeholder="Name"><br><br>
+Select your crust :<select name="crust" >
+    <option name="shallow-crust">Shallow crust</option>
+    <option name="deep crust">Deep crust</option>
+    <option name="light crust">Light crust</option>
+</select><br><br>
+<h3 style="color: purple;">Toppings:</h3>
+<input type="checkbox" name="t" value="peas">Peas<br>
+<input type="checkbox" name="t" value="panner">Panner<br>
+<input type="checkbox" name="t" value="redpeppers">RedPeppers<br>
+<input type="checkbox" name="t" value="pineapple">pineapple<br>
+<input type="checkbox" name="t" value="onions">Onions<br>
+<input type="checkbox" name="t" value="Tomato">Tomato<br><br>
+<span style="color: purple;">Select 1 Free Appertizer</span> <input type="radio" name="Appetizer" value="Garlic Bread">Garlic Bread
+ <input type="radio" name="Appetizer" value=" Cheese Garlic Bread">Cheese Garlic Bread
+ <input type="radio" name="Appetizer" value="veg soup">Veg soup
+ <input type="radio" name="Appetizer" value="veg sandwitch">Veg sandwitch<br><br>
+ 
+Address:<br>
+<textarea rows="4" cols="50" name="add" placeholder="Address"></textarea><br><br>
+
+<h4 style="color: green;">Credit Card:</h4>
+<input type="radio" name="ccd" value="VISA">VISA
+ <input type="radio" name="ccd" value="Master Card">Master Card
+ <input type="radio" name="ccd" value="American Express">American Express<br><br>
+
+ Credit card Number<input type="password" name="cn" > Repeat Credit card Number<input type="password" name="cnr"><br><br>
+ <button style="background-color: aliceblue;">Order pizza</button>
+</form>
+</body>
+</html>

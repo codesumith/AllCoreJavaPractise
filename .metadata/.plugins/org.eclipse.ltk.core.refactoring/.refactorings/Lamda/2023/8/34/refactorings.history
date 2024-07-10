@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.sumith.shopping_car_using_consumer_interface&apos; to &apos;com.sumith.shopping_cart_using_consumer_interface&apos;&#x0A;- Original project: &apos;Lamda&apos;&#x0A;- Original element: &apos;Lamda/src/com.sumith.shopping_car_using_consumer_interface&apos;&#x0A;- Renamed element: &apos;Lamda/src/com.sumith.shopping_cart_using_consumer_interface&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.sumith.shopping_car_using_consumer_interface&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.sumith.shopping_car_using_consumer_interface" name="com.sumith.shopping_cart_using_consumer_interface" qualified="false" references="true" stamp="1692528633084" textual="false" version="1.0"/>
+</session>

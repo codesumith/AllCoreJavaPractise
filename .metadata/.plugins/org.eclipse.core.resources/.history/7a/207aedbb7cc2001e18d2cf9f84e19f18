@@ -1,0 +1,6 @@
+package com.record_class;
+
+public record CustomerRecord(int customerId,String customerName,double customerBill) 
+{
+
+}

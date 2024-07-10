@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        
+        <beans>
+        <bean id="student1" class="com.flipkart.set.values.Student">
+                <property name="id" value="4567"></property>
+                <property name="name" value="GunturKaram"></property>
+                <property name="subjects">
+                <set>
+                <value>Java</value>
+                 <value>CSS</value>
+                  <value>ReactJs</value>
+                  <value>Java</value>
+                   <value>Angular</value>
+                    <value>CSS</value>
+                     <value>ReactJs</value>
+                </set>
+                </property>
+        </bean>
+        
+         <bean id="student2" class="com.flipkart.set.values.Student">
+                <property name="id" value="5678"></property>
+                <property name="name" value="Vijaywada"></property>
+                <property name="subjects">
+                <set>
+                <value>Java</value>
+                 <value>CSS</value>
+                  <value>ReactJs</value>
+                  <value>Java</value>
+                   <value>Angular</value>
+                    <value>CSS</value>
+                     <value>ReactJs</value>
+                </set>
+                </property>
+                
+                <property name="marks">
+                <map>
+                <entry key="Java" value="99"></entry>
+                <entry key="CSS" value="88"></entry>
+                <entry key="ReactJs" value="77"></entry>
+                <entry key="Angular" value="66"></entry>
+                </map>
+                </property>
+        
+        </bean>
+        
+        </beans>

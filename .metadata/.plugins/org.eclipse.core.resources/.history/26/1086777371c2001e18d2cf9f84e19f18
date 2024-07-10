@@ -1,0 +1,16 @@
+package com.sealed_classes;
+
+sealed class SealedDemo1 permits Beta,Gamma {
+
+}
+non-sealed class Beta extends Alpha
+{
+	
+}
+final class Gamma extends Alpha
+{
+	
+}
+
+
+public class 

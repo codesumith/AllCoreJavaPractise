@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        
+        <beans>
+        <bean id="student1" class="com.sumith.beans.setter.injection.Student">
+        <property name="id" value="3232"></property>
+        <property name="name" value="vishal"></property>
+        <property name="mobile">
+        <list>
+        <value>8787879090</value>
+        <value>8787879091</value>
+        <value>8787879092</value>
+        </list>
+        </property>
+        
+        </bean>
+        
+        <bean id="cg1" class="com.sumith.beans.setter.injection.College">
+        <property name="name" value="NareshIt"></property>
+        <property name="student" ref="student1"></property>
+        
+        </bean>
+        </beans>

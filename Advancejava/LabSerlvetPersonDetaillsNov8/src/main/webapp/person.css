@@ -1,0 +1,36 @@
+@charset "UTF-8";body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    background-color: bisque;
+}
+
+#form-container
+{
+    background-color: palevioletred;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+h1{
+	font-family: montserrat;
+}
+.font-2{
+	font-family: 'josefin sans';
+	font-weight: 700;
+}
+.title{ letter-spacing: .3em; text-transform: uppercase; }
+.text-light{ color: #5b5a91 }
+.font-alt{
+	font-family: 'georgia';
+	font-style: italic;
+	color: #666;
+}
+
+input
+{
+    border-radius: 5px;
+   
+}

@@ -1,0 +1,13 @@
+package com.flipkart;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SpringBeanConfiguration {
+	
+	public Product getProductOne()
+	{
+		return new Product();
+	}
+
+}

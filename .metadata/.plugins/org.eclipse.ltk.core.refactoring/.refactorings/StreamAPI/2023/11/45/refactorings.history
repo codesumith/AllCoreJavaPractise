@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.sumith.markerInterface&apos; to &apos;com.sumith.functionalinterface&apos;&#x0A;- Original project: &apos;StreamAPI&apos;&#x0A;- Original element: &apos;StreamAPI/src/com.sumith.markerInterface&apos;&#x0A;- Renamed element: &apos;StreamAPI/src/com.sumith.functionalinterface&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.sumith.markerInterface&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.sumith.markerInterface" name="com.sumith.functionalinterface" qualified="false" references="true" stamp="1699275778935" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.sumith.retrive_details_with_function&apos; to &apos;com.sumith.retrive_details_with_function_oct13&apos;&#x0A;- Original project: &apos;ClassPrograms&apos;&#x0A;- Original element: &apos;ClassPrograms/src/com.sumith.retrive_details_with_function&apos;&#x0A;- Renamed element: &apos;ClassPrograms/src/com.sumith.retrive_details_with_function_oct13&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.sumith.retrive_details_with_function&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.sumith.retrive_details_with_function" name="com.sumith.retrive_details_with_function_oct13" qualified="false" references="true" stamp="1697390411837" textual="false" version="1.0"/>
+</session>

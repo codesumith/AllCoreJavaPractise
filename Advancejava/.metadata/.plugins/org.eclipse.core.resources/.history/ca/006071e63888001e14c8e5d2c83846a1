@@ -1,0 +1,23 @@
+package com.sumith.image;
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@SuppressWarnings("serial")
+@WebServlet("/image")
+public class Imageservlet extends HttpServlet{
+@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException ,IOException
+	{
+		String s =new ImageDAO().retrive(req);
+		req.setAttribute("img", s);
+		RequestDispatcher rd =req.getRequestDispatcher("img.jsp");
+		rd.forward(req, res);
+	}
+	
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        
+        <beans>
+             <bean id="product1" class="com.flipkart.Product">
+             <property name="id" value="1"></property>
+             <property name="productName" value="Laptop"></property>
+             <property name="price" value="88880.80"></property>
+        
+             </bean>
+             
+            <!--  second product 2, Mouse, 500.00 -->
+            
+             <bean id="product2" class="com.flipkart.Product">
+             <property name="id" value="2"></property>
+             <property name="productName" value="Mouse"></property>
+             <property name="price" value="500.00"></property>
+        
+             </bean>
+        
+        <!-- private String emailId;private float totalAmount;private boolean isOrderSuccess;
+	         private char foodType;private long mobileNumber; -->
+	         
+	         <bean id="order1" class="com.flipkart.Order">
+	         <property name="emailId" value="lulu@gmail.com"></property>
+	           <property name="totalAmount" value="500.00"></property>
+	             <property name="isOrderSuccess" value="True"></property>
+	               <property name="foodType" value="N"></property>
+	                 <property name="mobileNumber" value="8989890909"></property>
+	                   <property name="foodItemNames">
+	                   <list>
+	                   <value>ChikenBiryani</value>
+	                   <value>ChikenLolipop</value>
+	                   <value>BagaraRice</value>
+	                   <value>Desserts</value>
+	                   </list>
+	                   </property>
+	                   
+	                   <property name="prices">
+	                   <list>
+	                   <value>180</value>
+	                   <value>150.0</value>
+	                   <value>100</value>
+	                   <value>50.00</value>
+	                   </list>
+	                   </property>
+	         </bean>
+	         
+	        <!--  private int id;private String name;private Set<String>subjects;
+                           private Map<String,Double> marks; -->
+                           
+                           
+	         <bean id="student1" class="com.flipkart.set.values.Student">
+	               <property name="name" value="Rod JohnSon"></property>
+	               <property name="subjects">
+	               <set>
+	               <value>JAVA</value>
+	                 <value>Java Script</value>
+	                   <value>Cascading Style Sheet</value>
+	                     <value>HTML</value>
+	                      <value>jAVA</value>
+	               </set>
+	               </property>
+	               <property name="id" value="2003"></property>
+	         </bean>
+        
+        </beans>

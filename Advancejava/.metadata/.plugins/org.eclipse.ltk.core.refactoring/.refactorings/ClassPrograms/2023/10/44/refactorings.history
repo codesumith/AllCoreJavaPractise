@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.sumith.Con&apos; to &apos;com.sumith.DBCon3&apos;&#x0A;- Original project: &apos;ClassPrograms&apos;&#x0A;- Original element: &apos;ClassPrograms/src/com.sumith.Con&apos;&#x0A;- Renamed element: &apos;ClassPrograms/src/com.sumith.DBCon3&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.sumith.Con&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.sumith.Con" name="com.sumith.DBCon3" qualified="false" references="true" stamp="1698768501205" textual="false" version="1.0"/>
+</session>

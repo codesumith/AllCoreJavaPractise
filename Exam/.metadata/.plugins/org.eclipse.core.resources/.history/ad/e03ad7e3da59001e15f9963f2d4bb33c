@@ -1,0 +1,21 @@
+package com.sumith.sep23test;
+
+
+class BankingOperation
+{
+	double balance=1000;
+	double deposit;
+	double withdraw;
+	
+	
+}
+
+public class user {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

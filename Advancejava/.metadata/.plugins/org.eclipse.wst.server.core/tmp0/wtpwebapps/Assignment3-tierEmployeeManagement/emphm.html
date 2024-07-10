@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmployeeManagement</title>
+    <link rel="stylesheet" href="emphm.css">
+</head>
+<body>
+    <h1 class="text-light title font-2">Employee Mangement</h1>
+    <div id =button-container>
+    <button id="add">Add Employee</button><br><br><br>
+    <button id="viewAll">View All Employees</button><br><br><br>
+    <button id="viewById">View Employee By Id</button>
+  </div>
+    <script>
+ // Get references to the buttons
+            const add = document.getElementById("add");
+            const viewAll = document.getElementById("viewAll");
+            const viewById =document.getElementById("viewById");
+    
+            // Add click event listeners to the buttons
+            add.addEventListener("click", function() {
+                // Redirect to the "book.html" page when the "Add Book Details" button is clicked
+                window.location.href = "addEmp.html";
+            });
+    
+            viewAll.addEventListener("click", function() {
+                // Redirect to the "view.html" page when the "View Book Details" button is clicked
+                window.location.href = "viewAll";
+            });
+
+            viewById.addEventListener("click", function() {
+                // Redirect to the "view.html" page when the "View Book Details" button is clicked
+                window.location.href = "viewById.html";
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+package com.sumith.image;
+import java.io.IOException;
+import java.util.Base64;
+
+import javax.servlet.ServletException;
+import javax.servlet.ServletOutputStream;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@SuppressWarnings("serial")
+@WebServlet("/image")
+public class Imageservlet extends HttpServlet{
+@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException ,IOException
+	{
+	String imageBase64 = new ImageDAO().retrive(req); // Assuming the image is stored in the database as a base64-encoded string
+
+	if (imageBase64 != null && !imageBase64.isEmpty()) {
+	    // Decode the base64 string to get the image bytes
+	    byte[] imageBytes = Base64.getDecoder().decode(imageBase64);
+
+	    // Set the appropriate content type for the response
+	    res.setContentType("image/png");
+
+	    // Get the output stream from the response
+	    try (ServletOutputStream ous = res.getOutputStream()) {
+	        // Write the image bytes to the output stream
+	        ous.write(imageBytes);
+	    } catch (IOException e) {
+	        e.printStackTrace(); // Handle or log the exception appropriately
+	    }
+	} else {
+	    // Handle the case when the image is not found in the database
+	    res.setContentType("text/plain");
+	    res.getWriter().write("Image not found");
+	}
+
+	}
+	
+}

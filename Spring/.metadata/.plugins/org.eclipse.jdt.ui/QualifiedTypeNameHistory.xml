@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.EmptyStackException"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.FileSystemXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
+    <fullyQualifiedTypeName name="com.naresh.employee.details.Organization"/>
+    <fullyQualifiedTypeName name="com.flipkart.orders.Transaction"/>
+    <fullyQualifiedTypeName name="java.sql.Time"/>
+    <fullyQualifiedTypeName name="com.spring.annotations.demo.Product"/>
+    <fullyQualifiedTypeName name="com.spring.annotations.Product"/>
+    <fullyQualifiedTypeName name="java.lang.Package"/>
+    <fullyQualifiedTypeName name="com.sumith.order.Products"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.maven.demo.Transaction"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="com.maven.demo.Order"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+</qualifiedTypeNameHistroy>

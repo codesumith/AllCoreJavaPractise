@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        
+     <beans>
+        
+            <bean id="order1" class="com.sumith.flipkart.orders.Order">
+        <!-- Character foodType, List<String> foodItemNames -->
+        
+        <constructor-arg index="0" value="N"></constructor-arg>
+        <constructor-arg>
+        <list>
+                <value>Poori</value>
+                <value>Dosa</value>
+                <value>Vada</value>
+                <value>Uthapam</value>
+        
+        </list>
+        </constructor-arg>
+        
+        
+            </bean>
+        
+             <bean id="order2" class="com.sumith.flipkart.orders.Order">
+             <!--  List<String> foodItemNames, Map<String, Double> prices-->
+             
+             <constructor-arg>
+        <list>
+                <value>Poori</value>
+                <value>Dosa</value>
+                <value>Vada</value>
+                <value>Uthapam</value>
+        
+        </list>
+        </constructor-arg>
+        
+        <constructor-arg>
+        <map>
+                <entry key="Poori" value="30"></entry>
+                <entry key="Dosa" value="40"></entry>
+                <entry key="Vada" value="25"></entry>
+                <entry key="Uthapam" value="35"></entry>
+        
+        </map>
+        </constructor-arg>
+        
+             </bean>
+
+         <!-- int orderId, String name, boolean isOrderSuccess -->
+         
+         <bean id="order3" class="com.sumith.flipkart.orders.Order">
+         <constructor-arg index="0" value="123"></constructor-arg>
+         <constructor-arg index="2" value="True"></constructor-arg>
+         <constructor-arg index="1" value="Dosa"></constructor-arg>
+         
+         </bean>
+ 
+ 
+  <!-- int orderId, String name, boolean isOrderSuccess, Character foodType, List<String> foodItemNames,Map<String, Double> prices -->
+ 
+ 
+ <bean id="order4" class="com.sumith.flipkart.orders.Order">
+ <constructor-arg index="4">
+ <map>
+ <entry key="Poori" value="30"></entry>
+ <entry key="Dosa" value="40"></entry>
+ <entry key="Vada" value="25"></entry>
+ <entry key="Uthapam" value="35"></entry>
+ </map> 
+ 
+ </constructor-arg>
+ 
+ <constructor-arg index ="3">
+ <list>
+ <value>Poori</value>
+ <value>Dosa</value>
+ <value>Vada</value>
+ <value>Uthapam</value>
+ </list>
+
+ </constructor-arg>
+ 
+ <constructor-arg index="2" value="True"></constructor-arg>
+ <constructor-arg index="1" value="Vada"></constructor-arg>
+ <constructor-arg index="0" value="321"></constructor-arg>
+ 
+ 
+ 
+ 
+ 
+ </bean>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+     </beans>

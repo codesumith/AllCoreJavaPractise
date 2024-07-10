@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <title>BookDetails</title>
+        <link rel="stylesheet" href="home.css">
+      
+    </head>
+    <body>
+        <h1 class="text-light title font-2">Library</h1>
+      <div id="button-container">
+          <button id="addButton" >Add Book Details</button><br><br>
+          <button id="viewButton">View All Book Details</button>
+        </div> 
+        <script>
+            // Get references to the buttons
+            const addButton = document.getElementById("addButton");
+            const viewButton = document.getElementById("viewButton");
+    
+            // Add click event listeners to the buttons
+            addButton.addEventListener("click", function() {
+                // Redirect to the "book.html" page when the "Add Book Details" button is clicked
+                window.location.href = "book.html";
+            });
+    
+            viewButton.addEventListener("click", function() {
+                // Redirect to the "view.html" page when the "View Book Details" button is clicked
+                window.location.href = "view";
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;pg2/src/main/webapp/pg2.html&apos; to &apos;pg.html&apos;" description="Rename resource &apos;pg2.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/pg2.html" name="pg.html" stamp="1699711782035" updateReferences="true"/>
+</session>

@@ -1,0 +1,19 @@
+package com.sumith.order;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class SpringComponentDemo {
+
+	public static void main(String[] args) {
+		
+AnnotationConfigApplicationContext container =new AnnotationConfigApplicationContext(SpringBeanConfiguration.class);
+
+     Order o1 = (Order) container.getBean("order");
+      System.out.println(o1);
+      System.out.println(o1.getoId());
+      System.out.println(o1.getPrice());
+
+
+	}
+
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<!-- private Integer Order; private String name; private boolean isOrderSuccess; 
+	private Character foodType; private List<String> foodItemNames; private Map<String,Double> prices; -->
+        
+        <beans>
+        
+               <bean id = "order1" class= "com.naresh.orderes.Order">
+               <constructor-arg value="1001"></constructor-arg>
+               <constructor-arg value="Dosa"></constructor-arg>
+               <constructor-arg value="true"></constructor-arg>
+               <constructor-arg value="N"></constructor-arg>
+               <constructor-arg >
+               <list>
+               
+               <value>Poori</value>
+               <value>Dosa</value>
+               <value>Idly</value>
+               <value>vada</value>
+               <value>ukma</value>
+               
+               </list>
+               </constructor-arg>
+               
+               <constructor-arg>
+               <map>
+               
+               <entry key="Poori" value="35"></entry>
+                <entry key="Dosa" value="40"></entry>
+                 <entry key="Idly" value="25"></entry>
+                  <entry key="vada" value="30"></entry>
+                   <entry key="ukma" value="25"></entry>
+               
+               </map>
+               </constructor-arg>
+               </bean>
+        
+              <bean id="order2" class="com.naresh.orderes.Order">
+              <constructor-arg value="1002"></constructor-arg>
+              <constructor-arg value="Idly"></constructor-arg>
+              <constructor-arg value="false"></constructor-arg>
+              
+              </bean>
+        
+        
+        </beans>

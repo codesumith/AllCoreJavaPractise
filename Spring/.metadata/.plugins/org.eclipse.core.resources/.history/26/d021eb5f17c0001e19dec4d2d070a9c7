@@ -1,0 +1,18 @@
+package com.flipkart;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SpringBeanConfiguration {
+	
+	@Bean("p1")
+	public Product getProductOne()
+	{
+		System.out.println("getProductOne is called...");
+		Product p =new Product();
+		p.setPid(123);
+		return p;
+	}
+
+}

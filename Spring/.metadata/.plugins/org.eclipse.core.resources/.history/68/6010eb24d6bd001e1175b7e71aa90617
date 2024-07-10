@@ -1,0 +1,9 @@
+package com.naresh.students;
+
+public class Student {
+
+	public Student() {
+		System.out.println("Student is instantiated..");
+	}
+
+}

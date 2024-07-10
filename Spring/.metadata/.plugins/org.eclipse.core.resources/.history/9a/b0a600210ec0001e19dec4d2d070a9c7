@@ -1,0 +1,14 @@
+package com.flipkart;
+
+import org.springframework.stereotype.Component;
+
+//@Component
+public class Product {
+
+	private int pid;
+	
+	public Product() {
+		System.out.println("Product is instantiated...");
+	}
+
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0 " server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="72">
+    <list key="modules" value0="StoringDetailsDec20::org.eclipse.jst.jee.server:StoringDetailsDec20::jst.web::4.0" value1="App_Servet_OnBookDetailsClassProgram17thNov::org.eclipse.jst.jee.server:App_Servet_OnBookDetailsClassProgram17thNov::jst.web::4.0" value2="3-tierBookDetailsServletApplication::org.eclipse.jst.jee.server:3-tierBookDetailsServletApplication::jst.web::4.0" value3="ClassWorkNov14thUserApp::org.eclipse.jst.jee.server:ClassWorkNov14thUserApp::jst.web::4.0" value4="Assignment3-tierEmployeeManagement::org.eclipse.jst.jee.server:Assignment3-tierEmployeeManagement::jst.web::4.0" value5="LabNov15Registrationform::org.eclipse.jst.jee.server:LabNov15Registrationform::jst.web::4.0" value6="LabUserRegistrationNov9th::org.eclipse.jst.jee.server:LabUserRegistrationNov9th::jst.web::4.0"/>
+  </server>
+</servers>
